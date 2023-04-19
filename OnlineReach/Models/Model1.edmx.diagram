@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e9c7c50206b2414fb2a2fe2b6433fb21" Name="Diagram1">
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.Account" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.Avatar" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.Feedback" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.HelpChat" Width="1.5" PointX="5.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.Location" Width="1.5" PointX="0.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.Notification" Width="1.5" PointX="5.25" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.Role" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.Service" Width="1.5" PointX="5.25" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.ServiceProvider" Width="1.5" PointX="3" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.sysdiagram" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.Transaction" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.Tune" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineMobileRechargeModel.User" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="OnlineMobileRechargeModel.FK_Account_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMobileRechargeModel.FK_Transaction_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMobileRechargeModel.FK_User_Avatar" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMobileRechargeModel.FK_Feedback_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMobileRechargeModel.FK_HelpChat_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMobileRechargeModel.FK_HelpChat_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMobileRechargeModel.FK_ServiceProvider_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMobileRechargeModel.FK_Notification_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMobileRechargeModel.FK_Service_ServiceProvider" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMobileRechargeModel.FK_Transaction_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMobileRechargeModel.FK_User_Tune" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineMobileRechargeModel.UserRole" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
